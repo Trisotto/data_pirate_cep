@@ -10,14 +10,13 @@ In the file uf.json, replace the UFs abbreviation with the UFs needed for crawli
 
 ## Install and Run
 
-> This project was tested in Windows ONLY.
+> This project was tested in Linux.
 
-1. [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
+1. [Install Docker](https://docs.docker.com/install/)
 2. Clone this project to your local environment.
-3. Run `docker-compose up` from the top level directory for your project.
-
-This `docker-compose up` command will start a `crawler` service and run the crawler for the specified UFs.ervice and run the crawler for the specified UFs.
+3. Run `docker build -t data_pirate_cep .` from the top level directory for your project, to build the docker image.
+4. Run `docker build -t data_pirate_cep .` to run the web crawler.
 
 ## After Running
 
-> There will be a jsonl file named "addresses" in the project diretory with all the data.
+There will be a jsonl file named "addresses" in the top level directory with all the data.
