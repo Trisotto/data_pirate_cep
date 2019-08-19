@@ -15,7 +15,7 @@ In the file uf.json, replace the UFs abbreviation with the UFs needed for crawli
 1. [Install Docker](https://docs.docker.com/install/)
 2. Clone this project to your local environment.
 3. Run `docker build -t data_pirate_cep .` from the top level directory for your project, to build the docker image.
-4. Run `docker run -v `pwd`:/app -it data_pirate_cep crawl busca_cep` to run the web crawler.
+4. Run `docker run -v ``pwd``:/app -it data_pirate_cep crawl busca_cep` to run the web crawler.
 
 ## After Running
 
